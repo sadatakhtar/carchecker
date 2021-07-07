@@ -1,0 +1,33 @@
+.header_container{
+  background-color: rgb(203, 237, 247);
+  display: flex;
+ 
+}
+.header_title > h1 {
+  font-weight: 400;
+}
+
+.header_title{
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_title > ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header_title > ul > li{
+  list-style: none;
+  font-size: 20px;
+}
+.header_title > ul > li:hover{
+  color: hotpink;
+  font-size: 22px;
+}
