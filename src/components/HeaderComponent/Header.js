@@ -4,7 +4,7 @@ import logo from '../../assetts/inspect.jpg'
 
 function Header() {
   return (
-    <div className="header_container">
+    <div id="header" className="header_container">
       <div className="header_logo">
         <img src={logo} alt="logo" width="180"/>
       </div>

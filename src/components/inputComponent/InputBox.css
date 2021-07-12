@@ -1,0 +1,31 @@
+.input_container {
+  border: 1px solid hotpink;
+  height: 10em;
+}
+
+.input_wrapper{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  margin: auto;
+}
+
+.input_card{
+  border: 1px solid green;
+  background-color: rgb(211, 230, 243);
+  width: 25%;
+  margin: auto;
+  padding: 55px;
+}
+.input_card > h3{
+  border: 1px solid black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+}

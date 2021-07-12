@@ -1,0 +1,11 @@
+.footer_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: black;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
